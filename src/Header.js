@@ -15,8 +15,8 @@ export default function Header() {
   return (
     <div className= "header">
       <div className="header__left">
-        <img src={Logo} />
-        <div class="header__input">
+        <img src={Logo} alt="me"/>
+        <div className="header__input">
           <SearchIcon />
           <input placeholder="Search Pubmate"type="text"/>
         </div>
@@ -52,13 +52,6 @@ export default function Header() {
         <IconButton>
           <ExpandMoreIcon />
         </IconButton>
-
-
-
-
-
-
-
 
       </div>
       
